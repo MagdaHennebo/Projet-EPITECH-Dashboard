@@ -1,0 +1,31 @@
+.sidebar{
+    flex: 0.5;
+}
+
+.sidebar{
+    color: rgb(250, 158, 173);
+}
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sidebarListItem:hover{
+    text-decoration: underline;
+}
+
+.sidebarList{
+    list-style: none;
+}
+
+.sidebarIcon{
+    font-size: 35px !important;
+    padding: 5px;
+}
+
+.sidebarTitle{
+    padding-left: 25px;
+}

@@ -1,0 +1,28 @@
+.paper {
+    width: 500px;
+    height: 300px;
+    background-image: linear-gradient(steelblue, skyblue);
+    text-align: center;
+    color: white !important;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 12px 2px black !important;
+    left: 200px;
+    top: -80px;
+    position: relative;
+  }
+
+  .fontcss {
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+  }
+
+  .elementcenter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .imgcss {
+    background-color: lightblue;
+    border-radius: 50%;
+    box-shadow: 2px 2px 13px 2px white;
+  }

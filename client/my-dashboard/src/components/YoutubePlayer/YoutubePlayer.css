@@ -1,0 +1,10 @@
+.custom-youtube-player {
+  width: 640px;
+  height: 390px;
+  right: 100px;
+  top: -40px;
+  background: black;
+  position: relative;
+  border-radius: 2%;
+  box-shadow: 2px 2px 12px 2px black !important;
+}

@@ -1,0 +1,32 @@
+.movie {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(pink, pink);
+  text-align: left;
+  color: white !important;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 2px 2px 12px 2px black !important;
+  position: relative;
+  top: 340px;
+  left: -300px;
+  overflow-y: scroll;
+}
+
+.movie::-webkit-scrollbar {
+  display: none;
+}
+
+input {
+  width: 98%;
+  display: block;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+table {
+  display: block;
+}
+
+.Lien{
+  color:white;
+}

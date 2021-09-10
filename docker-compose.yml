@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  nestjs:
+    build: ./server/my-dashboard
+    restart: always
+    ports:
+        - "3000:3000"
+  reactjs:
+    build: ./client/my-dashboard
+    restart: always
+    depends_on:
+        - nestjs
+    ports:
+        - "3001:3001"
